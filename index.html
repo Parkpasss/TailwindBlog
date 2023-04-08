@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Programming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="bg-red-300">
+      <div
+        class="container mx-auto flex justify-between items-center px-4 py-6"
+      >
+        <div id="branding">
+          <h1 class="text-white font-bold text-2xl">
+            <span class="font-bold text-red-500">PORTFOLIO</span> BLOG
+          </h1>
+        </div>
+        <nav>
+          <ul class="flex">
+            <li class="mr-6">
+              <a
+                href="index.html"
+                class="text-white font-bold hover:text-red-500"
+                >HOME</a
+              >
+            </li>
+            <li class="mr-6">
+              <a
+                href="about.html"
+                class="text-white font-bold hover:text-red-500"
+                >ABOUT ME</a
+              >
+            </li>
+            <li class="mr-6">
+              <a
+                href="project.html"
+                class="text-white font-bold hover:text-red-500"
+                >PROJECT</a
+              >
+            </li>
+            <li class="mr-6">
+              <a
+                href="contact.html"
+                class="text-white font-bold hover:text-red-500"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="showcase" class="py-20 flex justify-center items-center">
+      <div
+        class="bg-center container p-80 text-white"
+        style="background-image: url('./img/sky.jpg')"
+      >
+        <h1 class="text-3xl font-bold mb-4">
+          박진아의 포트폴리오 블로그입니다.
+        </h1>
+        <h2 class="text-xl font-bold mb-8">
+          This is Park Jina's portfolio blog.
+        </h2>
+        <p class="text-lg mb-8">원하시는 메뉴를 우측 상단에서 클릭해주세요.</p>
+      </div>
+    </section>
+
+    <section
+      id="newsletter"
+      class="flex justify-between items-center py-10 bg-red-200"
+    >
+      <h1 class="text-left text-white font-bold text-2xl">　업데이트 알림</h1>
+      <form class="flex items-center">
+        <input
+          type="email"
+          placeholder="Enter your email..."
+          class="mr-4 py-2 px-4 rounded-lg border border-gray-300"
+        /><button type="submit" class="button_1 bg-red-400 rounded-md p-2">
+          알림 신청
+        </button>
+        　
+      </form>
+    </section>
+
+    <section id="boxes" class="py-20">
+      <div class="container mx-auto">
+        <h1 class="text-5xl font-bold mb-8 text-center">< TMI ></h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="flex flex-col items-center">
+            <img src="./img/mbti.png" alt="MBTI" class="mb-4" width="70%" />
+            <div class="text-2xl text-center">MBTI</div>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="./img/personal.png"
+              alt="Personal Color"
+              class="mb-4"
+              width="70%"
+            />
+            <div class="text-center text-2xl">Personal Color</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-red-300 text-white py-10">
+      <div class="container mx-auto text-center">
+        <p>Copyright &copy; 2023, 중부대학교 정보보호학전공 박진아</p>
+      </div>
+    </footer>
+  </body>
+</html>

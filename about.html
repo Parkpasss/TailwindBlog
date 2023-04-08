@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Programming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="bg-red-300">
+      <div
+        class="container mx-auto flex justify-between items-center px-4 py-6"
+      >
+        <div id="branding">
+          <h1 class="text-white font-bold text-2xl">
+            <span class="font-bold text-red-500">PORTFOLIO</span> BLOG
+          </h1>
+        </div>
+        <nav>
+          <ul class="flex">
+            <li class="mr-6">
+              <a
+                href="index.html"
+                class="text-white font-bold hover:text-red-500"
+                >HOME</a
+              >
+            </li>
+            <li class="mr-6">
+              <a
+                href="about.html"
+                class="text-white font-bold hover:text-red-500"
+                >ABOUT ME</a
+              >
+            </li>
+            <li class="mr-6">
+              <a
+                href="project.html"
+                class="text-white font-bold hover:text-red-500"
+                >PROJECT</a
+              >
+            </li>
+            <li class="mr-6">
+              <a
+                href="contact.html"
+                class="text-white font-bold hover:text-red-500"
+                >CONTACT</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="introduce" class="flex flex-wrap items-center">
+      <div class="w-full md:w-1/2 p-4">
+        <h1 class="text-5xl mb-4">박진아 Park Jina</h1>
+        <img
+          src="./img/selfie.jpg"
+          class="max-w-full float-left rounded-full mr-4"
+          width="40%"
+        />
+      </div>
+      <div class="w-full md:w-1/2 p-4">
+        <p class="mb-2 text-2xl">생년월일 : 2002년 09월 16일</p>
+        <p class="mb-2 text-2xl">취미 : 계획 세우기, 산책하기</p>
+        <p class="mb-2 text-2xl">현재 관심사 : 수학/물리학, Python, AI</p>
+        <p class="mb-2 text-2xl">
+          자격증 : 컴퓨터 활용능력 2급, 네트워크 관리사 2급
+        </p>
+        <p class="mb-2 text-2xl">학점 평균 : 4.0</p>
+      </div>
+    </section>
+
+    <section id="ability" class="bg-gray-100 py-20">
+      <div class="container mx-auto">
+        <h1 class="text-3xl font-bold mb-8">ABILITY</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div class="text-center">
+            <h3 class="text-2xl font-bold mb-4">C언어</h3>
+            <div
+              class="relative inline-block w-64 h-4 bg-gray-200 rounded-full"
+            >
+              <div
+                class="absolute top-0 left-0 h-4 bg-red-300 rounded-full"
+                style="width: 30%"
+              ></div>
+            </div>
+            <p class="mt-4">
+              C언어 학원 문제 출제 조교로 근무하며, C언어 기초에 대해 익히고
+              간단한 심리테스트 프로그램을 제작하였습니다.
+            </p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-2xl font-bold mb-4">Python</h3>
+            <div
+              class="relative inline-block w-64 h-4 bg-gray-200 rounded-full"
+            >
+              <div
+                class="absolute top-0 left-0 h-4 bg-red-300 rounded-full"
+                style="width: 50%"
+              ></div>
+            </div>
+            <p class="mt-4">
+              python 스터디를 진행하며 데이터 활용을 위한 Numpy, Pandas 모듈
+              이외에도 네트워크 모듈에 대해 공부했습니다. 현재 Python을 활용한
+              서비스 거부 모의 공격과 방어 프로그램 개발 프로젝트를 진행
+              중입니다.
+            </p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-2xl font-bold mb-4">HTML</h3>
+            <div
+              class="relative inline-block w-64 h-4 bg-gray-200 rounded-full"
+            >
+              <div
+                class="absolute top-0 left-0 h-4 bg-red-300 rounded-full"
+                style="width: 40%"
+              ></div>
+            </div>
+            <p class="mt-4">
+              HTML을 1학년부터 꾸준히 공부하여 2022년 목표 정리 사이트(To Do
+              List), 간단한 개인 웹페이지 등을 제작하였습니다.
+            </p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-2xl font-bold mb-4">CSS</h3>
+            <div
+              class="relative inline-block w-64 h-4 bg-gray-200 rounded-full"
+            >
+              <div
+                class="absolute top-0 left-0 h-4 bg-red-300 rounded-full"
+                style="width: 40%"
+              ></div>
+            </div>
+            <p class="mt-4">
+              CSS와 Bootstrap으로 위의 페이지를 디자인하였습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-red-300 text-white py-10">
+      <div class="container mx-auto text-center">
+        <p>Copyright &copy; 2023, 중부대학교 정보보호학전공 박진아</p>
+      </div>
+    </footer>
+  </body>
+</html>
